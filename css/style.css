@@ -1,0 +1,30 @@
+h1{
+    color: rgb(218, 96, 36);
+    font: 300;
+    background-color: rgb(21, 195, 211) ;
+    border-style: dashed;
+    border-color: rgb(219, 18, 18);
+    }
+#h2{
+    color: rgb(12, 230, 128);
+    font: 300;
+    background-color: rgb(106, 166, 9) ;
+    border-style: dashed;
+    border-color: rgb(219, 18, 18);
+
+}
+#h3{
+    color: rgb(218, 96, 36);
+    font: 300;
+    background-color: rgb(66, 215, 8) ;
+    border-style: dashed;
+    border-color: rgb(219, 18, 18);
+}
+#h4{
+    color: rgb(218, 96, 36);
+    font: 300;
+    background-color: rgb(162, 219, 16) ;
+    border-style: dashed;
+    border-color: rgb(219, 18, 18);
+}
+
