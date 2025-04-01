@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Admission Form</legend>
+        <!-- <input type="text">
+        <button>click</button><br><br>
+
+        <input type="checkbox"><br><br>
+        <button>click</button>
+
+        <input type="color">
+        <button>Color Choose</button><br><br>
+
+        <input type="date">
+        <button>Submit</button><br><br>
+
+        <input type="datetime">
+        <button>Submit</button><br><br>
+
+        <input type="datetime-local">
+        <button>Submit</button><br><br>
+
+        <input type="email">
+        <button>Submit</button><br><br>
+
+        <input type="file">
+        <button>Submit</button><br><br>
+
+        <input type="image">
+        <button>Submit</button><br><br>
+
+        <input type="month">
+        <button>Submit</button><br><br>
+
+        <input type="number">
+        <button>Submit</button><br><br>
+
+        <input type="password">
+        <button>Submit</button><br><br>
+
+        <input type="radio">
+        <button>Submit</button><br><br>
+        
+        <br><br>
+        <input type="range" min="0" max="1000" step="200">
+        <button>Submit</button><br><br>
+
+        <input type="reset">
+        <button>Submit</button><br><br>
+
+        <input type="search">
+        <button>Submit</button><br><br>
+
+        <input type="submit"><br><br>
+
+        <input type="tel">
+        <button>Submit</button><br><br> 
+
+        <input type="text">
+        <button>Submit</button>
+
+        <input type="time">
+        <button>Submit</button><br><br>
+
+        <input type="url">
+        <button>Submit</button><br><br>
+
+        <input type="week">
+        <button>Submit</button> -->
+
+
+        <span></span>
+        <br>
+        <input type="range" min="0" max="1000" step="200">
+        <button>Submit</button><br><br>
+
+        <!-- <input id="html" type="checkbox">
+        <label for="html">html</label>
+        <input id="java" type="checkbox">
+        <label for="java">java</label>
+        <input id="css" type="checkbox">
+        <label for="css">css</label>
+        <button>click</button> -->
+    <!-- revision of form -->
+
+    <!-- checkbox is use for multiselection -->
+    <input type="checkbox" name="Marathi" id="Marathi">
+    <label for="Marathi">Marathi</label>
+    <input type="checkbox" name="hindi" id="hindi">
+    <label for="hindi">hindi</label>
+    <input type="checkbox" name="English" id="English">
+    <label for="English">English</label><br><br>
+
+    <!--  radio is use for only single selection-->
+    <input type="radio" name="gender" id="Male">
+    <label for="Male">Male</label>
+    <input type="radio" name="gender" id="Female">
+    <label for="Female">Female</label>
+    <input type="radio" name="gender" id="Other">
+    <label for="Other">Other</label><br><br>
+
+    <label for="x">Write Your Feedback</label>
+    <input type="text" id="x">
+    <button >click</button><br><br>
+    
+    <label for="a">Email</label>
+    <input type="email" id="a">
+    <button>click</button><br><br>
+
+    <label for="b">Feedback</label>
+    <textarea id="b" rows="10" cols="10"></textarea>
+    <button>Submit</button><br><br>
+
+    <select name="Salary" id="">
+        <option value="">Select the CTC</option>
+        <option value="5">5lpa</option>
+        <option value="10">10lpa</option>
+        <option value="15">15lpa</option>
+    </select><br><br>
+
+    <select name="State" id="">
+        <option value="">Select the state</option>
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="Goa">Goa</option>
+        <option value="Karnataka">Karnataka</option>
+        <option value="Rajasthan">Rajasthan</option>
+        <option value="Andhrapradesh">Andhrapradesh</option>
+    </select><br><br>
+
+    <select name="Cars" id="">
+        <option value="">Select Car</option>
+        <option value="Lambhorgini">Lambhorgini</option>
+        <option value="Farari">Farari</option>
+        <option value="Marcedees">Marcedees</option>
+        <option value="Jaguar">Jaguar</option>
+        <option value="Mahindra">Mahindra</option>
+    </select><br><br>
+
+    <label for="">Username:</label>
+    <input type="text" maxlength="12" minlength="12"  placeholder="Username"><br><br>
+
+    <label for="">Contact</label>
+    <input type="text" maxlength="14" minlength="14" value="+91"  > 
+    <button disabled>Click </button><br><br>
+<!-- Disabled is use for disable something -->
+    <fieldset>
+        <legend>Login</legend>
+    <input type="text" placeholder="Usename" autofocus><br><br>
+    <input type="password" placeholder="Passward"><br><br>
+    <input type="text" placeholder="Enter Captcha"><br><br>
+    <button>Click</button>
+    </fieldset><br><br>
+
+    <fieldset> 
+        <legend>Login</legend>
+    <input type="text" placeholder="Usename" accesskey="a"><br><br>
+    <input type="text" placeholder="Passward" accesskey="b"><br><br>
+    <input type="text" placeholder="Enter Captcha" accesskey="c"><br><br>
+    <button>Click </button>
+    </fieldset>
+
+        <script>
+            let input = document.querySelector("input");
+            let span = document.querySelector("span");
+            input.addEventListener("input",(e)=> {
+                console.log(e.target.value);
+                span.innerText = input.value
+            });
+        </script>
+    </fieldset>
+    </form>
+</body>
+</html>
